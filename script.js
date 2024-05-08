@@ -20,7 +20,7 @@ function calcularAreas() {
     // e) área do retângulo
     let retanguloArea = A * B;
 
-    let resultados = document.getElementById("resultados");
+    let resultados = document.getElementById("restados");
     resultados.innerHTML = `
         Área do triângulo: ${trianguloArea.toFixed(4)}<br>
         Área do círculo: ${circuloArea.toFixed(4)}<br>
